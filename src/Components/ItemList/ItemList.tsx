@@ -10,7 +10,8 @@ interface ItemListProps {
     body: string,
     id: number,
     title: string
-}
+};
+
 const ItemList = () => {
     const { data = [], isLoading, isError } = useGetPostQuery('getPost');
     const [amountEl, SetEmountEl] = useState(10);

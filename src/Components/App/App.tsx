@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css';
-import { Routes, Route, Link} from 'react-router-dom';
+
 import ItemList from "../ItemList/ItemList";
 import CurrentItem from "../CurrentItem/CurrentItem";
 import Item from "../Item/Item";
+
+import { Routes, Route, Link} from 'react-router-dom';
+
 function App() {
   return (
     <div className="App">
